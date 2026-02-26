@@ -1,11 +1,12 @@
+
 ---
 
-# Cybersecurity Mini Projects (Python)
+# Cybersecurity Project-1 (Python)
 
 This repository contains two educational cybersecurity projects developed using Python:
 
-"* Task 1: Basic Network Sniffer
-* Task 2: Educational Keylogger Simulation"
+* Task 1: Basic Network Sniffer
+* Task 2: Educational Keylogger Simulation
 
 Both projects were created strictly for academic and learning purposes.
 
@@ -19,10 +20,10 @@ This project implements a basic network sniffer in Python to capture and analyze
 
 The sniffer captures packets in real time and extracts:
 
-"* Source IP address
+* Source IP address
 * Destination IP address
 * Protocol (TCP, UDP, ICMP)
-* Packet size"
+* Packet size
 
 ---
 
@@ -50,9 +51,10 @@ The sniffer captures packets in real time and extracts:
 1. Install Python 3
 2. Install Scapy:
 
-   ```bash
-   pip install scapy
-   ```
+```bash
+pip install scapy
+```
+
 3. Install Npcap
 
    * Enable WinPcap API-compatible mode
@@ -74,7 +76,7 @@ Examples:
 
 * `"ip"` → Capture only IP packets
 * `"tcp"` → Capture only TCP packets
-* `"tcp port 8080"` → Capture Burp Suite traffic
+* `"tcp port 8080"` → Capture traffic on port 8080
 
 ---
 
@@ -153,7 +155,7 @@ python edu_keylogger.py
 
 The script uses `pynput.keyboard.Listener` to monitor keyboard events:
 
-* on_press()
+* `on_press()`
 
   * Logs regular characters normally
   * Logs special keys in brackets
@@ -216,10 +218,16 @@ This simulation highlights the risks of keylogging:
 
 ## Clean Up
 
-After testing:
+After testing (Linux/macOS):
 
 ```bash
 rm edu_keylogger.py keylog.txt
+```
+
+On Windows:
+
+```bash
+del edu_keylogger.py keylog.txt
 ```
 
 ---
