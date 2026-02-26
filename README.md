@@ -2,7 +2,7 @@
 
 # Cybersecurity Mini Projects (Python)
 
-This repository contains two educational cybersecurity projects developed using Python:
+This repository contains two educational cybersecurity projects developed using Python-
 
 * Task 1: Basic Network Sniffer
 * Task 2: Educational Keylogger Simulation
