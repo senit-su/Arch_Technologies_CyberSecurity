@@ -2,10 +2,10 @@
 
 # Cybersecurity Mini Projects (Python)
 
-This repository contains two educational cybersecurity projects developed using Python-
+This repository contains two educational cybersecurity projects developed using Python:
 
-* Task 1: Basic Network Sniffer
-* Task 2: Educational Keylogger Simulation
+"* Task 1: Basic Network Sniffer
+* Task 2: Educational Keylogger Simulation"
 
 Both projects were created strictly for academic and learning purposes.
 
@@ -19,10 +19,10 @@ This project implements a basic network sniffer in Python to capture and analyze
 
 The sniffer captures packets in real time and extracts:
 
-* Source IP address
+"* Source IP address
 * Destination IP address
 * Protocol (TCP, UDP, ICMP)
-* Packet size
+* Packet size"
 
 ---
 
